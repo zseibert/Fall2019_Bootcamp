@@ -14,7 +14,7 @@ var listingSchema = new Schema({
     updated_at: Date
 });
 
-/* Create a 'pre' function that adds the updated_at (and created_at if not already t$
+// Create a 'pre' function
 listingSchema.pre('save', function(next) {
 var curr = new Date();
 
