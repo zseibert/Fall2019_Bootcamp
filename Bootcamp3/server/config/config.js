@@ -6,10 +6,10 @@
 
 module.exports = {
   db: {
-     uri: 'mongodb+srv://bootcampUser:cen3031access@cen3031-course-qlxug.mongodb.net/bootcamp2?retryWrites=true&w=majority', //place the URI of your mongo database here.
+     uri: 'mongodb+srv://zseibert:Caro9898@cluster0-fh82j.mongodb.net/test?retryWrites=true&w=majority' //place the URI of your mongo database here.
   }, 
   openCage: {
-    key: 'dd82c4da77f3461388010f5c8950ba27' //place your openCage public key here - Sign-up for a free key https://opencagedata.com/
+    key: '60f4a8a01ae34fbe94a78fff580aac97' //place your openCage public key here - Sign-up for a free key https://opencagedata.com/
   },
   port: 8080
 };
